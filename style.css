@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;  
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo {
+    height: 50px;
+    width: 100px;
+
+}
+
+.logo{
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+   border: 2px solid transparent; 
+
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** box 2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+.nav-search:hover{
+    border : 2px solid rgb(222, 142, 12)
+}
+/* box 3.1 */
+.nav-box2a{
+    height: 35px;
+    width: 40px;
+    
+}
+.enforbox2a{
+    font-size: 0.6rem;
+}
+.box2a-icon{
+    font-size: 0.5rem;
+}
+
+/* box 4*/
+.paragraph1{
+    font-size: 0.7rem;
+}
+.paragraph2{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* box 5 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* panel*/
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-opt p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-opt{
+    width: 70%;
+    font-size: 0.85rem;
+
+}
+.panel-deals{
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+/* hero section*/
+.hero-section{
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 30px;
+
+}
+.hero-msg a {
+    color: #007185;
+}
+/* shop section*/
+.shoping-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.boximg1{
+    background-image: url(images/box1_image.jpg);
+    background-size: cover;
+    height: 340px;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 10px;
+}
+.boximg2{
+    background-image: url(images/box2_image.jpg);
+    background-size: cover;
+    height: 340px;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+.boximg3{
+    background-image: url(images/box3_image.jpg);
+    background-size: cover;
+    height: 340px;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+.boximg4{
+    background-image: url(images/box4_image.jpg);
+    background-size: cover;
+    height: 340px;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+
+.boximg5{
+    background-image: url(images/box5_image.jpg);
+    background-size: cover;
+    height: 340px;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+.boximg6{
+    background-image: url(images/box6_image.jpg);
+    background-size: cover;
+    height: 340px;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+.boximg7{
+    background-image: url(images/box7_image.jpg);
+    background-size: cover;
+    height: 340px;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+.boximg8{
+    background-image: url(images/box8_image.jpg);
+    background-size: cover;
+    height: 340px;
+    width: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+}
+.box-content p{
+    color: #15afc3;
+    position: relative;
+    bottom: 10px;
+}
+/*sign in sec*/
+.signin-sec{
+    margin-top: 20px;
+    border: 0.7px solid rgba(0, 0, 0, 0.303);
+    background-color: white;
+    display: grid;
+    grid-template-areas: "sign sign sign"
+                          "in in in"
+                          " starts start start";
+justify-content: center;
+    width: 100%;
+    row-gap: 8px;
+
+}
+.signin-sec h4 {
+   
+    margin-top: 20px;
+    grid-area: sign;
+    font-weight: 400;
+   font-size: 0.98rem;
+   position: relative;
+   left: 10px;
+   font-size: small;
+}
+.signin-sec div{
+    grid-area: in;
+
+
+    
+}
+.signin-sec button{
+    width: 230px;
+    height: 27px;
+    background-color: #febd68;
+  
+}
+.signin-sec a{
+    color: #007185;
+   text-decoration: none;
+}
+.signin-sec p{
+    grid-area: starts;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    position: relative;
+  left: 40px;
+}
+.emtydiv{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+}
+.backto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 0.9rem;
+    background-color: #37475A;
+
+}
+.backto p {
+    color: white;
+
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color:#232F3E ;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.frow{
+   
+    height: 600px;
+    width: 12%;
+    margin-top: 30px;
+
+}
+.frow{
+   
+    height: 600px;
+    width: 10%;
+
+}
+.frow{
+   
+    height: 600px;
+    width:10%;
+
+}
+.frow{
+   
+    height: 600px;
+    width: 10%;
+
+}
+.frow p{
+    color: #cccccc;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    
+}
+.pline{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+/* footer 2 */
+.footer2{
+    height: 300px;
+    background-color: #131A22;
+    width: 100%;
+}
+.footer2 a {
+    text-decoration: none;
+    color: white;
+}
